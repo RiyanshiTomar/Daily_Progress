@@ -16,3 +16,17 @@ Package----1. create Test.class
 ##and you will be able to get output....
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📁 Folder structure
+D:\24B1 United\
+│
+├── package1\
+│     └── MessagePrinter.java
+│
+├── package2\
+      └── MainApp.java
+Hence create two java files like this and MainApp contain import statement from MessagePrinter  hence
+first we do- javac -d . package1\MessagePrinter.java package2\MainApp.java
+this will cretae .class copies of both
+
+Now run-----java package2.MainApp
+You will be able to see the output
