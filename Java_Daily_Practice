@@ -1,0 +1,18 @@
+Learning of todays class-----05-August-2025
+
+# Package-------------how we create a Test.java and then
+
+Package----1. create Test.class
+           2. create package folder(structure----)
+
+##Commands for creation of Test.class if it contain packages and if not conatin package
+
+1. javac -d . Test.java   (view -> show -> extensions) m jakar change kar lena extension that is Test.java.txt to Test.java
+
+2. if not package---------- java Test
+
+3. if package is there then---------------- java live.pw.ioi.Test  (where live.pw.ioi is my package name)      
+
+##and you will be able to get output....
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
