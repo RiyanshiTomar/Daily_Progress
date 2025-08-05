@@ -1,1 +1,39 @@
-#DSA ---------------------
+#DSA 
+
+#Linked Lists.......
+
+We learn about class, objects and Constructor work and default constructor
+
+#Object creation as members......
+class Node{
+  public:
+    int data;
+    Node * next;
+    Node(int x){
+       data = x;
+       next = nullptr;
+    }
+};
+
+main(){
+  Node * h = new Node(10);
+  Node * t = h;           //temporaray t as node 
+  print(t)
+  print(t -> data);
+
+  t-> next = new Node(20);
+  t = t -> next;
+
+  t -> next = new Node(30);
+  t = t -> next;
+
+
+#Obseravtion:  Nullptr will help us to indicate we reacher last node
+               first node in Linked List caused: head
+              if we have heard we can access entire linked lists
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
